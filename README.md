@@ -14,7 +14,7 @@ To find the optimal time of year to launch a theatre campaign, I used a pivot ta
 To determine a fundraising goal, I looked at the number of successful, failed and cancelled play outcomes based on fundraising goal, breaking up the fundraising goals into increments of $5,000. Using the ```COUNTIFS()``` formula, I filtered for the data for the specific goal increments, outcome type and category. 
 
 ### Challenges and Difficulties 
-To avoid typo’s in the code, I automated the process by adding the outcome types and goal increments to rows and columns outside the table and anchored those values. So instead of typing ```COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter$D:$D, ">= 1000", Kickstarter!$H:$H, "successful", Kickstarter!$T:$T, "plays")``` I used the below formla and was able to easliy copy and past into the cells without having to update the outcome type and ragnes manually. 
+To avoid typo’s in the code, I automated the process by adding the outcome types and goal increments to rows and columns outside the table and anchored those values. Instead of typing ```COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter$D:$D, ">= 1000", Kickstarter!$H:$H, "successful", Kickstarter!$T:$T, "plays")``` into cell ```B4```, I used the below formla and was able to easliy copy and past into the cells without having to update the outcome type and ragnes manually. 
 
 ![Code](https://user-images.githubusercontent.com/80648379/116000870-f43e6b00-a5bf-11eb-96f8-62221a38eb23.png)
 
