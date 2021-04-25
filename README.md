@@ -1,6 +1,6 @@
 # Analysis of Kickstarter Campaigns
 ## Overview of Project
-This analysis uses excel to identify trends for starting a successful kickstarter campaign using data from over 4000 multi-industry campaigns in various countries. Add findings
+This analysis uses excel to identify trends for starting a successful kickstarter campaign using data from over 4000 multi-industry campaigns in various countries. Throughout the analysis, I use pivot tables and the ```COUNTIFS()``` formula to extract data based on launch date and fundraising goals
 
 ## Purpose
 The purpose of this analysis is to find the best time of year to launch a campaign and an ideal fundraising goal for a theatre campaign.
