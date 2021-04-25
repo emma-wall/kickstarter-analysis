@@ -18,7 +18,8 @@ To avoid typo’s in the code, I automated the process by adding the outcome typ
 
 
 ## Results
-* From the graph of Outcomes Based on Launch Date it appears that the best time of year to start a theatre campaign is May. From the graph it looks like the most campaigns we’re started in May, I looked at the percentage of successful outcomes. From the below chart it appears that the May is in fact the best time of year to start a theatre campaign, with XX% of campaign being successful. The worst time of year to start one is December, with only XX amount of campaigns being successful. 
+* From the graph of Outcomes Based on Launch Date it appears that the best time of year to start a theatre campaign is May. From the graph it looks like the most campaigns we’re started in May, I looked at the percentage of successful outcomes.  ![Percents](https://user-images.githubusercontent.com/80648379/116000590-ee945580-a5be-11eb-8a86-075c33baed42.png)
+From the below chart it appears that the May is in fact the best time of year to start a theatre campaign, with XX% of campaign being successful. The worst time of year to start one is December, with only XX amount of campaigns being successful. 
 * Looking at our Outcomes Based on Goals Chart, it looks like XYZ
 * One limitation I found with this dataset is that it did not encompass method of funding raising. I would think the method of fundraising would be an important aspect to look at when starting a campaign and knowing what fundraising strategies worked the best. 
 * For a more complete and through analysis, 
