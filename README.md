@@ -16,9 +16,9 @@ To determine a fundraising goal, I looked at the number of successful, failed an
 ### Challenges and Difficulties 
 To avoid typo’s in the code, I automated the process by adding the outcome types and goal increments to rows and columns outside the table and anchored those values. Instead of typing ```COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter$D:$D, ">= 1000", Kickstarter!$H:$H, "successful", Kickstarter!$T:$T, "plays")``` into cell ```D4```, I used the below formla and was able to easily copy and past into the cells without having to manually update the outcome type and ragnes manually for each cell. 
 
-<p align="center">
+
 ![Code](https://user-images.githubusercontent.com/80648379/116000870-f43e6b00-a5bf-11eb-96f8-62221a38eb23.png)
-</p>
+
 
 
 ## Results
@@ -29,4 +29,4 @@ From the below chart it appears that the May is in fact the best time of year to
 * One limitation I found with this dataset is that it did not encompass method of funding raising. I would think the method of fundraising would be an important aspect to look at when starting a campaign and knowing what fundraising strategies worked the best. 
 * For a more complete and through analysis, 
 
-![Uploading image.png…]
+
