@@ -35,6 +35,6 @@ To avoid typo’s in the code, I automated the process by adding the outcome typ
 
 * One limitation I found with this dataset is that it did not encompass method of funding raising. I would think the method of fundraising would be an important aspect to look at when starting a campaign and knowing what fundraising strategies worked the best. 
 
-* For a more complete and through analysis, we could have 
+* For a more complete and through analysis, we could have looked at the duration of the campaigns to see if there was a correlation with the length of the campaign and outcomes. We could have also taken outliers into consideration, to make the data more accurate. 
 
 
