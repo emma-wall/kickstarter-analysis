@@ -27,7 +27,7 @@ To avoid typo’s in the code, I automated the process by adding the outcome typ
 ![Theater Outcomes vs Launch](https://user-images.githubusercontent.com/80648379/116017656-3b534d00-a60e-11eb-8c01-018cd3dc3ef9.png)
   From the graph it also looks like the most campaigns were started in May, so I looked at the percentage of successful outcomes to see if May was indeed the best time of year to start a campaign.  
 ![Percents](https://user-images.githubusercontent.com/80648379/116000590-ee945580-a5be-11eb-8a86-075c33baed42.png)
- From the above chart it appears that the May is in fact the best time of year to start a theatre campaign,  with 67% of camapigns that started in May being sucessful. It also looks like the worst time of year to start a campaign is December, only 49% of campaigns that started in December were sucessful. 
+  From the above chart it appears that the May is in fact the best time of year to start a theatre campaign,  with 67% of camapigns that started in May being sucessful. It also looks like the worst time of year to start a campaign is December, only 49% of campaigns that started in December were sucessful. 
 
 * Looking at the Play Outcomes Based on Goals chart, it looks like the most successful campaigns had a fundraising goal of $1,000 or less. For the most part, the percentage of sucessful campaigns declines as the goal increases, with the exception of fundraising goals from $35,000 to $45,000. 
 ![Outcomes vs Goals](https://user-images.githubusercontent.com/80648379/116018418-fdefbf00-a60f-11eb-963c-86203b903218.png)
