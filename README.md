@@ -14,7 +14,7 @@ To find the optimal time of year to launch a theatre campaign, I used a pivot ta
 To determine a fundraising goal, I looked at the number of successful, failed and cancelled play outcomes based on fundraising goal, breaking up the fundraising goals into increments of $5,000. Using the ```COUNTIFS()``` formula, I filtered for the data for the specific goal increments, outcome type and category. 
 
 ### Challenges and Difficulties 
-To avoid typo’s in the code, I automated the process by adding the outcome types and goal increments to rows and columns outside the table and anchored those values. Instead of typing ```COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter$D:$D, ">= 1000", Kickstarter!$H:$H, "successful", Kickstarter!$T:$T, "plays")``` into cell ```D4```, I used the below formla and was able to easily copy and past into the cells without having to manually update the outcome type and ragnes manually for each cell. 
+To avoid typo’s in the code, I automated the process by adding the outcome types and goal increments to rows and columns outside the table and anchored those values. Instead of typing ```COUNTIFS(Kickstarter!$D:$D, "<=4999", Kickstarter$D:$D, ">= 1000", Kickstarter!$H:$H, "successful", Kickstarter!$T:$T, "plays")``` into cell ```D4```, I used the below formula and was able to easily copy and past into the cells without having to manually update the outcome type and ranges manually for each cell. 
 
 
 ![Code](https://user-images.githubusercontent.com/80648379/116000870-f43e6b00-a5bf-11eb-96f8-62221a38eb23.png)
@@ -28,9 +28,10 @@ To avoid typo’s in the code, I automated the process by adding the outcome typ
   From the graph it also looks like the most campaigns were started in May, so I looked at the percentage of successful outcomes to see if May was indeed the best time of year to start a campaign.  
 ![Percents](https://user-images.githubusercontent.com/80648379/116000590-ee945580-a5be-11eb-8a86-075c33baed42.png)
   
-  From the above chart it appears that the May is in fact the best time of year to start a theatre campaign,  with 67% of camapigns that started in May being sucessful. It also looks like the worst time of year to start a campaign is December, only 49% of campaigns that started in December were sucessful. 
+  From the above chart it appears that the May is in fact the best time of year to start a theatre campaign, with 67% of campaigns that started in May being successful. It also looks like the worst time of year to start a campaign is December, only 49% of campaigns that started in December were successful.
 
-* Looking at the Play Outcomes Based on Goals chart, it looks like the most successful campaigns had a fundraising goal of $1,000 or less. For the most part, the percentage of sucessful campaigns declines as the goal increases, with the exception of fundraising goals from $35,000 to $45,000. 
+
+* Looking at the Play Outcomes Based on Goals chart, it looks like the most successful campaigns had a fundraising goal of $1,000 or less. For the most part, the percentage of successful campaigns declines as the goal increases, with the exception of fundraising goals from $35,000 to $45,000. 
 ![Outcomes vs Goals](https://user-images.githubusercontent.com/80648379/116018418-fdefbf00-a60f-11eb-963c-86203b903218.png)
 
 * One limitation I found with this dataset is that it did not encompass method of funding raising. I would think the method of fundraising would be an important aspect to look at when starting a campaign and knowing what fundraising strategies worked the best. 
